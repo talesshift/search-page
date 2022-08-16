@@ -1,7 +1,7 @@
 type Props = {}
-function results({}: Props) {
+function Results({}: Props) {
   return (
     <div>results</div>
   )
 }
-export default results
+export default Results
