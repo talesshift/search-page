@@ -29,7 +29,18 @@ body {
     font-weight: 400;
     font-size: 0.8125rem;
     line-height: 1.625rem;
+    height: 100vh;
     margin: 0;
+}
+
+#root{
+    height: 100%;
+}
+
+.App{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
 }
 
 .clearfix::after{

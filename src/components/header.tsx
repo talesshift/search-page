@@ -6,6 +6,7 @@ import logo from '../assets/logo.png'
 import {breakpoints} from '../consts'
 
 const bp = breakpoints
+
 type Props = {
     className?:string
 }
@@ -18,15 +19,13 @@ const Navio = (props: Props) => {
                 <div className='logo'><a href="http://metamemo.info"><img src={logo} alt="home-page"/></a></div>
                 <div className='menu'><a href="http://metamemo.info/content/saiba">A Metamemo</a></div>
             </div>
-
         </nav>
     )
 }
 
-
-
 const Header = styled(Navio)`
     height: auto;
+    flex: 0 1 auto;
     line-height: initial;
     padding: 1.6875rem 0 1.875rem 0;
     background-color: #F4F4F4;
