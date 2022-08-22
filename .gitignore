@@ -12,6 +12,10 @@ assets
 dist
 dist-ssr
 *.local
+.env
+env
+*.env
+*keys.tsx
 
 # Editor directories and files
 .vscode/*

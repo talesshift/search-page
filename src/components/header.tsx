@@ -11,7 +11,7 @@ type Props = {
     className?:string
 }
 
-const Navio = (props: Props) => {
+const Header_unstyled = (props: Props) => {
 
     return (
         <nav className={props.className}>
@@ -23,7 +23,7 @@ const Navio = (props: Props) => {
     )
 }
 
-const Header = styled(Navio)`
+const Header = styled(Header_unstyled)`
     height: auto;
     flex: 0 1 auto;
     line-height: initial;

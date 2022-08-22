@@ -9,14 +9,21 @@ export const breakpoints = new Map<string, string>(
 
 export const colors = new Map<string, string>(
     [
-        ['metablue',` #3478B7`],
-        ['metagreen',` #1B975B`],
-        ['metapink',` #EF5DA8`],
-        ['metapurple',` #462F87`],
-        ['metagold',` #C5A44F`],
-        ['metared',` #AB3D55`],
-        ['metablack',` #373F41`],
-        ['metagrey',` #c4c4c4`],
-        ['metawhite',` #fbfbfb`],
+        ['blue',` #3478B7`],
+        ['green',` #1B975B`],
+        ['pink',` #EF5DA8`],
+        ['purple',` #462F87`],
+        ['gold',` #C5A44F`],
+        ['red',` #AB3D55`],
+        ['black',` #373F41`],
+        ['grey',` #c4c4c4`],
+        ['white',` #fbfbfb`],
     ]
 )
+
+export const container = `
+    max-width: 74.1875rem;
+    width: 95%;
+    margin-left:auto;
+    margin-right:auto;
+`
